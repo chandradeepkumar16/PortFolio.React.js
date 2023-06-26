@@ -1,6 +1,6 @@
 import React from "react";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import HeroImage from "../assets/heroImage.jpg";
+import { HiArrowNarrowRight } from "react-icons/hi";
+import HeroImage from "../assets/heroImage.png";
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -11,14 +11,13 @@ const Home = () => {
     >
       <div className=" max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            Hi , I'm an Android Developer
+          <h2 className="mt-20 text-4xl sm:text-7xl font-bold text-white">
+            Hi , I'm an Android Developer !!
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have Experience building and designing android applications
-            .Currently my Tech Stack - Kotlin , Java , Node.js , Express.js ,
-            MYSQL I am proficient in programming languages such as C++ , Java ,
-            C , Javascript
+            I have honed my skills in building and crafting exceptional web and
+            Android applications. Proficient in a wide range of technologies
+            including Java, Kotlin, React, and Tailwind.
           </p>
           <div>
             <Link
@@ -29,7 +28,7 @@ const Home = () => {
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
-                <MdOutlineKeyboardArrowRight className="ml-1" />
+                <HiArrowNarrowRight className="ml-1" />
               </span>
             </Link>
           </div>
@@ -38,7 +37,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="gravity-end rounded-4xl mx-auto w-2/5 md:w-full"
+            className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
         </div>
       </div>

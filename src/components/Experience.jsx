@@ -1,4 +1,5 @@
 import React from "react";
+
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
@@ -7,8 +8,12 @@ import nextjs from "../assets/nextjs.png";
 import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import java from "../assets/java.png";
+import kotlin from "../assets/kotlin.png";
+import clang from "../assets/clang.png";
+import mysql from "../assets/mysql.png";
 
-const TechStack = () => {
+const Experience = () => {
   const techs = [
     {
       id: 1,
@@ -58,12 +63,36 @@ const TechStack = () => {
       title: "GitHub",
       style: "shadow-gray-400",
     },
+    {
+      id: 9,
+      src: java,
+      title: "Java",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 10,
+      src: kotlin,
+      title: "Kotlin",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 11,
+      src: clang,
+      title: "C++",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 12,
+      src: mysql,
+      title: "MY SQL",
+      style: "shadow-gray-400",
+    },
   ];
 
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="py-16 bg-gradient-to-b from-gray-800 to-black "
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
@@ -89,4 +118,4 @@ const TechStack = () => {
   );
 };
 
-export default TechStack;
+export default Experience;
