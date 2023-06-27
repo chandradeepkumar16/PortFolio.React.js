@@ -4,76 +4,80 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import nodejs from "../assets/nodejs.png";
+import android from "../assets/android.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import java from "../assets/java.png";
 import kotlin from "../assets/kotlin.png";
 import clang from "../assets/clang.png";
 import mysql from "../assets/mysql.png";
+import firebase from "../assets/firebase.png";
+import figma from "../assets/figma.png";
+
+
 
 const Experience = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
+      src: kotlin,
+      title: "Kotlin",
       style: "shadow-orange-500",
     },
     {
       id: 2,
+      src: java,
+      title: "Java",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 3,
+      src: android,
+      title: "Android development",
+      style: "shadow-green-500",
+    },
+    {
+      id: 4,
+      src: html,
+      title: "HTML",
+      style: "shadow-orange-800",
+    },
+    {
+      id: 5,
       src: css,
       title: "CSS",
       style: "shadow-blue-500",
     },
     {
-      id: 3,
+      id: 6,
       src: javascript,
-      title: "JavaScript",
+      title: "Javascript",
       style: "shadow-yellow-500",
     },
     {
-      id: 4,
+      id: 7,
       src: reactImage,
       title: "React",
-      style: "shadow-blue-600",
-    },
-    {
-      id: 5,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
-    },
-    {
-      id: 6,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
-    },
-    {
-      id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      style: "shadow-blue-400",
     },
     {
       id: 8,
       src: github,
       title: "GitHub",
-      style: "shadow-gray-400",
+      style: "shadow-gray-600",
     },
     {
       id: 9,
-      src: java,
-      title: "Java",
-      style: "shadow-gray-400",
+      src: nodejs,
+      title: "Node.js",
+      style: "shadow-green-400",
     },
     {
       id: 10,
-      src: kotlin,
-      title: "Kotlin",
-      style: "shadow-gray-400",
+      src: tailwind,
+      title: "Tailwind",
+      style: "shadow-blue-500",
     },
     {
       id: 11,
@@ -85,13 +89,25 @@ const Experience = () => {
       id: 12,
       src: mysql,
       title: "MY SQL",
-      style: "shadow-gray-400",
+      style: "shadow-blue-700",
+    },
+    {
+      id: 13,
+      src: firebase,
+      title: "Google Firebase",
+      style: "shadow-yellow-400",
+    },
+    {
+      id: 14,
+      src: figma,
+      title: "Figma",
+      style: "shadow-orange-400",
     },
   ];
 
   return (
     <div
-      name="experience"
+      name="Tech Stack"
       className="py-16 bg-gradient-to-b from-gray-800 to-black "
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
